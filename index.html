@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Family</title>
+</head>
+
+<script type="text/javascript" src="htdocs/script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<style type="text/css">
+	button.mfp-close{
+	overflow: visible;
+	cursor: pointer;
+	background-color: white;
+	border:0;
+	-webkit-appearance:none;
+	display: block;
+	outline: 0;
+	padding: 0;
+	z-index: 1046;
+	box-shadow: none;
+}
+
+	.mfp-close{
+		width: 44px;
+		height: 44px;
+		border-radius: 50px;
+		line-height: 44px;
+		position: absolute;
+		right: 40px;
+	}
+</style>
+
+<body style="background-color: rgb(0,0,0);">
+
+<div class="container">
+	
+	<div class="navbar">
+		<nav>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">REGION</a></li>
+				<li><a href="">ABOUT</a></li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" class="menu-icon">
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<h1>Family</h1>
+			<p>Family will always be one of the most important part of our life. With everything against us, even the world is against us, family will always be there for us. They are there to support, to love and care for us. Here are some of the best tagalog quotes about family that show how important family is. We collected some of the most inspiring tagalog family quotes and put them into images. Share these tagalog family quotes to your loved ones.</p>
+
+			<audio id="sound" src="mmfiles/myaudio.mp3" preload="auto"></audio>
+
+			<button onclick="document.getElementById('sound').play();" style="margin-top: 10px;">Click to Play Audio</button>
+
+			<a href="#videostory" class="button more" id="videolink" style="margin-right: 90px; margin-top: 10px;">
+				Click to watch my video <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+			</a>
+
+			<div id="videostory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+				<iframe width="853" height="480" src="mmfiles/myvid.mp4" frameborder="0" allow="autoplay" encrypted-media allowfullscreen></iframe>
+			</div>
+			</div>
+
+		<div class="col">
+
+			<div class="card card1">
+					<h5>Quote 1</h5>
+					<p>Pahalagahan mo ang pamilyang meron ka. Dahil hindi sa lahat ng pagkakataon ay nariyan sila</p>
+			</div>
+
+				<div class="card card2">
+					<h5>Quote 2</h5>
+					<p>Ang pamilya ay hindi isang mahalagang bagay lamang. Ito ay ang lahat.</p>
+			</div>
+
+				<div class="card card3">
+					<h5>Quote 3</h5>
+					<p>Ang pamilya ay isa sa mga pinakamagandang likha ng kalikasan.</p>
+			</div>
+
+			<div class="card card4">
+					<h5>Quote 4</h5>
+					<p>Pamilya ang pinakamahalagang bagay sa mundo.</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	$('#videolink').magnificPopup({
+	type:'inline',
+	midClick:true
+});
+
+</script>
+</html>
